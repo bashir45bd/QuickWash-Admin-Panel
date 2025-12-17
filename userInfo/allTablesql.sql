@@ -1,5 +1,3 @@
--- Safe recreate script for QuickWash DB tables
--- Run on an empty/new database or after backing-up existing data.
 
 SET FOREIGN_KEY_CHECKS = 0;
 
