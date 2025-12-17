@@ -3,7 +3,7 @@ include 'db.php';
 
 header('Content-Type: application/json');
 
-$baseImageUrl = "http://192.168.0.106/Laundry/adminpanel/";
+$baseImageUrl = "http://192.168.0.109/Laundry/adminpanel/";
 
 $query = "SELECT r.rating, r.comment, r.created_at, u.name AS user_name, u.image AS user_image
           FROM reviews r

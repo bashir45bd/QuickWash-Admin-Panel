@@ -43,7 +43,7 @@ $result = $stmt->get_result();
 
 // Prepare response
 $wash = [];
-$base_url = "http://192.168.0.106/Laundry/adminpanel/uploads/items/";
+$base_url = "http://192.168.0.109/Laundry/adminpanel/uploads/items/";
 while ($row = $result->fetch_assoc()) {
     $wash[] = [
         "id"       => $row['id'],

@@ -34,7 +34,7 @@ if ($f_key == '2021' && strlen($mail) > 0) {
             $temp['email'] = $row['email'];
             $temp['phone'] = $row['phone'];       // ✅ Added phone
             $temp['address'] = $row['address'];   // ✅ Added address
-            $temp['image'] = 'http://192.168.0.106/Laundry/adminpanel/' . $row['image'];
+            $temp['image'] = 'http://192.168.0.109/Laundry/adminpanel/' . $row['image'];
         }
         echo json_encode($temp);
     } else {

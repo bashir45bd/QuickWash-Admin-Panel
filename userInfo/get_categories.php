@@ -41,7 +41,7 @@ while ($row = $result->fetch_assoc()) {
     $categories[] = [
         "id" => $row['id'],
         "name" => $row['name'],
-		"image" => "http://192.168.0.106/Laundry/adminpanel/" . $row['image']
+		"image" => "http://192.168.0.109/Laundry/adminpanel/" . $row['image']
     ];
 }
 

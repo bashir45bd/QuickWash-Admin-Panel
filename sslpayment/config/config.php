@@ -1,7 +1,7 @@
 <?php
 
 if (!defined('PROJECT_PATH')) {
-    define('PROJECT_PATH', 'http://192.168.0.106/Laundry/sslpayment'); // replace this value with your project path
+    define('PROJECT_PATH', 'http://192.168.0.109/Laundry/sslpayment'); // replace this value with your project path
 }
 
 if (!defined('IS_SANDBOX')) {

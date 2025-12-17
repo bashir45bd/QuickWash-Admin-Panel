@@ -26,7 +26,7 @@ $monthStart = date('Y-m-01');
 $revenueMonth = $conn->query("SELECT SUM(amount) AS total FROM orders WHERE DATE(created_at) >= '$monthStart'")->fetch_assoc()['total'] ?? 0;
 
 // Pending Orders Count
-$pendingOrders = $conn->query("SELECT COUNT(*) AS total FROM orders WHERE status='Pending'")->fetch_assoc()['total'] ?? 0;
+$pendingOrders = $conn->query("SELECT COUNT(*) AS total FROM orders WHERE noti_status='Pending'")->fetch_assoc()['total'] ?? 0;
 
 // Most Popular Service
 $popularService = $conn->query("
