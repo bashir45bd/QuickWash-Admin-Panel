@@ -21,7 +21,7 @@ CREATE TABLE `admin` (
   `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- USERS TABLE
+
 CREATE TABLE `users` (
   `id` INT AUTO_INCREMENT PRIMARY KEY,
   `name` VARCHAR(100) NOT NULL,
@@ -45,7 +45,7 @@ CREATE TABLE `services` (
   `name` VARCHAR(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- CATEGORIES TABLE
+
 CREATE TABLE `categories` (
   `id` INT AUTO_INCREMENT PRIMARY KEY,
   `name` VARCHAR(100) NOT NULL,
@@ -77,8 +77,8 @@ CREATE TABLE `orders` (
   `address` TEXT NOT NULL,
   `service_id` INT(11) DEFAULT NULL,
   `amount` DECIMAL(10,2) NOT NULL,
-  `noti_status` VARCHAR(100) DEFAULT 'Pending',   -- order progress (Pending, Picked Up, Washed, Delivered)
-  `status` VARCHAR(100) DEFAULT 'Unpaid',         -- payment status (Paid, Unpaid, Failed)
+  `noti_status` VARCHAR(100) DEFAULT 'Pending',   
+  `status` VARCHAR(100) DEFAULT 'Unpaid',        
   `transaction_id` VARCHAR(100) DEFAULT NULL,
   `currency` VARCHAR(20) DEFAULT 'BDT',
   `payment_method` VARCHAR(200) DEFAULT NULL,
