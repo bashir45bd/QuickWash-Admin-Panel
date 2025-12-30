@@ -106,37 +106,6 @@ Key tables:
 
 ---
 
-## ⚙️ Installation & Setup
-
-1. Clone the repository
-
-   ```bash
-   git clone https://github.com/your-username/QuickWash-Admin-Panel.git
-   ```
-
-2. Move the project to XAMPP `htdocs` folder
-
-3. Import the database
-
-   * Open **phpMyAdmin**
-   * Create a database
-   * Import the provided `.sql` file
-
-4. Configure database connection
-
-   * Update database credentials in `config.php`
-
-5. Run the project
-
-   * Start Apache & MySQL
-   * Open browser and visit:
-
-     ```
-     http://localhost/QuickWash-Admin-Panel
-     ```
-
----
-
 ## 🔒 Security Notes
 
 * Passwords are stored securely
@@ -170,18 +139,8 @@ You are free to modify and improve it.
 Mobile Application Developer
 Android | iOS | Backend Integration
 
-📧 Email: *(add if you want)*
-🌐 GitHub: *(your GitHub profile link)*
+📧 Email: *bashir45.me@gmail.com*
 
----
 
-If you want, I can:
-
-* ✨ Make it **shorter**
-* 🎓 Rewrite it for **university submission**
-* 📱 Add **API section for Android app**
-* 🧠 Improve **professional wording**
-
-Just tell me 👍
 
 
